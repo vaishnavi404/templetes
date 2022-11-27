@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.outerBox{
+    height: 100vh;
+    width: 100vw;
+    background: white;
+}
+
+.header{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* box-shadow: 1px 1px 1px  rgb(97 , 128 , 168); */
+    padding:0 30px 0 20px;
+    height: 70px;
+    width: 100vw;
+    background: #0574bb;
+    margin: 0 auto;
+    /* border-radius: 0 0px 10px 10px; */
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+}
+.logo img{
+    height: 40px;
+}
+
+.connectToDb a{
+    background: white;
+    color: #00456f;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.connectToDb a:hover{
+    background: #5c5c5c;
+    color: #f4f4f4;
+}
+
+.bodyInside{
+    display:flex;
+    justify-content: space-between;
+}
+.bodyColumn{
+    background:rgb(255, 255, 255, 0.5) ;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 85vh;
+    width: 32.5vw;
+    min-width: 300px;
+    /* box-shadow: 2px 2px 5px  rgb(97, 128, 168); */
+    border: 1px solid grey;
+    /* border-radius: 10px; */
+    overflow: hidden scroll;
+}
+#column2{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#column1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchTable{
+    width: 31vw;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    background:rgb(255, 255, 255, 0.5) ;
+    /* box-shadow: 2px 2px 10px  rgb(97, 128, 168); */
+}
+
+.tableNames{
+    width: 31vw;
+    height: 72.7vh;
+    margin-top: 15px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    background:rgba(255, 255, 255, 0);
+    box-shadow: 0px  2px 5px rgb(87, 87, 87);
+}
+
+#column3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.executionSpace{
+    width: 23vw;
+    height: 20vw;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    background:rgba(255, 255, 255, 0.5);
+    /* box-shadow: 2px 2px 10px  rgb(97, 128, 168); */
+    border: 1px solid gray;
+}
+#execute{
+    margin-top: 15px;
+    background: #0574bb;
+    color: white;
+    padding: 10px;
+    /* box-shadow: 2px 2px 10px  rgb(97, 128, 168); */
+    width: 100px;
+    border-radius: 7px;
+    border: none;
+}
+#execute:hover{
+    color: white;
+    background: #065e95;
+    cursor: pointer;
+}
